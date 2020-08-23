@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { PublicModule } from './public/public.module';
 import { AngularFireModule } from '@angular/fire';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,7 +15,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule,
     AngularFireModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule,

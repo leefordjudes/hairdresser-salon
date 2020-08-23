@@ -11,3 +11,5 @@ ng add @angular/material
 ng g module public
 
 ng g c public/toolbar
+
+ng g c public/sidenav
